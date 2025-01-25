@@ -42,9 +42,9 @@ jsonCopy{
 
 🚧 Geliştirilecek Özellikler
 
-1 - )Dinamik subdomain keşfi
-2 - )Çoklu thread desteği
-3 - )Daha kapsamlı IP çözümleme
+1 - )Dinamik subdomain keşfi <br>
+2 - )Çoklu thread desteği <br>
+3 - )Daha kapsamlı IP çözümleme <br>
 
 🤝 Katkıda Bulunma
 
