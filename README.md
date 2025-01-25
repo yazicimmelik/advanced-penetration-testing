@@ -1,33 +1,38 @@
-🌐 Subdomain Keşif Aracı
-📝 Proje Açıklaması
-Basit bir Python subdomain keşif aracı. Domain üzerindeki alt alan adlarını (subdomainleri) keşfeder ve IP adreslerini çözer.
-✨ Özellikler
+<h1>🌐 Subdomain Keşif Aracı</h1>
 
-🔍 Statik subdomain keşfi
-🌐 IP adresi çözümleme
-📋 JSON formatında çıktı
-🛡️ Hata yönetimi
+<h2>📝 Proje Açıklaması</h2>
+<p>Basit bir Python subdomain keşif aracı. Domain üzerindeki alt alan adlarını (subdomainleri) keşfeder ve IP adreslerini çözer.</p>
 
-🛠 Gereksinimler
+<h2>✨ Özellikler</h2>
+<ul>
+    <li>🔍 Statik subdomain keşfi</li>
+    <li>🌐 IP adresi çözümleme</li>
+    <li>📋 JSON formatında çıktı</li>
+    <li>🛡️ Hata yönetimi</li>
+</ul>
 
-Python 3.7+
-socket kütüphanesi
-json kütüphanesi
+<h2>🛠 Gereksinimler</h2>
+<ul>
+    <li>Python 3.7+</li>
+    <li>socket kütüphanesi</li>
+    <li>json kütüphanesi</li>
+</ul>
 
-🚀 Kurulum
-# Gerekli kütüphaneleri yükle
-pip install -r requirements.txt
-💻 Kullanım
+<h2>🚀 Kurulum</h2>
+<pre><code>pip install -r requirements.txt</code></pre>
 
-🔧 Fonksiyonlar
+<h2>💻 Kullanım</h2>
+<pre><code>python main.py</code></pre>
 
-find_subdomains(domain): Statik subdomain listesi oluşturur
-resolve_ips(subdomains): Subdomainlerin IP adreslerini bulur
-main(): Ana çalıştırma fonksiyonu
+<h2>🔧 Fonksiyonlar</h2>
+<ul>
+    <li><code>find_subdomains(domain)</code>: Statik subdomain listesi oluşturur</li>
+    <li><code>resolve_ips(subdomains)</code>: Subdomainlerin IP adreslerini bulur</li>
+    <li><code>main()</code>: Ana çalıştırma fonksiyonu</li>
+</ul>
 
-<h2>📋 Çıktı Formatı <h2>
-
-jsonCopy{
+<h2>📋 Çıktı Formatı</h2>
+<pre><code>{
     "status": "success",
     "data": {
         "domain": "example.com",
@@ -38,20 +43,25 @@ jsonCopy{
             }
         ]
     }
-}
-<br>
-🚧 Geliştirilecek Özellikler
-<br>
-1 - )Dinamik subdomain keşfi <br>
-2 - )Çoklu thread desteği <br>
-3 - )Daha kapsamlı IP çözümleme <br>
-<br>
-🤝 Katkıda Bulunma <br>
+}</code></pre>
 
-a.Fork yapın <br>
-b.Yeni branch oluşturun <br>
-c.Değişikliklerinizi commit edin <br>
-d.Pull request gönderin <br>
+<h2>🚧 Geliştirilecek Özellikler</h2>
+<ul>
+    <li>Dinamik subdomain keşfi</li>
+    <li>Çoklu thread desteği</li>
+    <li>Daha kapsamlı IP çözümleme</li>
+</ul>
+
+<h2>🤝 Katkıda Bulunma</h2>
+<ol>
+    <li>Fork yapın</li>
+    <li>Yeni branch oluşturun</li>
+    <li>Değişikliklerinizi commit edin</li>
+    <li>Pull request gönderin</li>
+</ol>
+
+<h2>📄 Lisans</h2>
+
 
 
 
