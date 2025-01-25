@@ -25,7 +25,7 @@ find_subdomains(domain): Statik subdomain listesi oluşturur
 resolve_ips(subdomains): Subdomainlerin IP adreslerini bulur
 main(): Ana çalıştırma fonksiyonu
 
-📋 Çıktı Formatı
+<h2>📋 Çıktı Formatı <h2>
 
 jsonCopy{
     "status": "success",
@@ -39,19 +39,19 @@ jsonCopy{
         ]
     }
 }
-
+<br>
 🚧 Geliştirilecek Özellikler
-
+<br>
 1 - )Dinamik subdomain keşfi <br>
 2 - )Çoklu thread desteği <br>
 3 - )Daha kapsamlı IP çözümleme <br>
+<br>
+🤝 Katkıda Bulunma <br>
 
-🤝 Katkıda Bulunma
-
-a.Fork yapın
-b.Yeni branch oluşturun
-c.Değişikliklerinizi commit edin
-d.Pull request gönderin
+a.Fork yapın <br>
+b.Yeni branch oluşturun <br>
+c.Değişikliklerinizi commit edin <br>
+d.Pull request gönderin <br>
 
 
 
