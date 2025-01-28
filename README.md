@@ -126,8 +126,8 @@ www.example.com,93.184.216.34,200,{"MX":["10 mail.example.com"]}
 
 <h2>📬 İletişim</h2>
 <ul>
-    <li>GitHub: @kullaniciadi</li>
-    <li>E-posta: ornek@email.com</li>
+    <li>GitHub: @yazicimmelik</li>
+    <li>E-posta: yedekmelik80@gmail.com</li>
 </ul>
 
 <h2>⚠️ Yasal Uyarı</h2>
